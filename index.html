@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-k0nkxOQs3niU2IOVD5bue8dZfiNbLSv/iN7ZG3+ZQmqdMML0vf2FVvPUw+kFii4tZ1iwoUjwCjgr1jXZnNp5Dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Website Title</title>
     <style>
       body {
@@ -32,6 +40,25 @@
         margin-left: 100px;
         margin-right: 200px;
       }
+      .custom-button {
+        background-color: #4e4caf; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+
+      /* Hover effect */
+      .custom-button:hover {
+        background-color: #5345a0; /* Darker green */
+      }
+
       img {
         max-width: 100%;
         height: auto;
@@ -57,7 +84,7 @@
     </style>
   </head>
   <body>
-    <nav>
+    <!-- <nav>
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/aditimi/" target="_blank"
@@ -68,22 +95,39 @@
           <a href="https://github.com/aditimishr" target="_blank">GitHub</a>
         </li>
         <!-- <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li> -->
+        <li><a href="#">Contact</a></li> 
       </ul>
-    </nav>
+    </nav> -->
     <div class="container">
       <div class="content">
         <h1>Welcome to my Portfolio</h1>
         <h2>I am Aditi Mishra</h2>
         <p>
-          I am Result-oriented, adaptive, and customer-centric Software Engineer
-          with 5+ years of experience, adept at overseeing full-cycle operations
-          in crafting, implementing, launching, and supporting resilient,
+          I am a Software Engineer at
+          <a href="https://www.werner.com/"> Werner Enterprises</a>. I am
+          Result-oriented, adaptive, and customer-centric Software Engineer with
+          5+ years of experience, adept at overseeing full-cycle operations in
+          crafting, implementing, launching, and supporting resilient,
           expandable software solutions. Skilled in interpreting client
           requirements to deliver inventive solutions that not only fulfill
           technical specifications but also elevate user interactions and
           tactically advance organizational goals.
         </p>
+
+        <a href="https://www.linkedin.com/in/aditimi/" target="_blank">
+          <button class="custom-button">LinkedIn</button></a
+        >
+        <a href="https://github.com/aditimishr" target="_blank">
+          <button class="custom-button">GitHub</button></a
+        >
+
+        <div>
+          <p>Feel free to contact me:</p>
+          <label for="email">Email:</label>
+          <a href="mailto:youremail@example.com"
+            ><i class="far fa-envelope"></i>aditimis96@gmail.com</a
+          >
+        </div>
         <!-- <p>You can add more paragraphs, images, or other content here.</p> -->
       </div>
       <div>
