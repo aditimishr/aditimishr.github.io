@@ -1,8 +1,94 @@
 <!DOCTYPE html>
-<html>
-    <head>aditimishr.github.io</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Title</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+      .content {
+        flex: 1;
+        padding-right: 20px;
+      }
+      .image {
+        flex: 1;
+        text-align: right;
+      }
+      .circular-img {
+        border-radius: 50%; /* This creates a circular shape */
+        width: 350px; /* Adjust the width and height as needed */
+        height: 350px;
+        object-fit: cover; /* Ensures the image covers the entire circular area */
+        margin-left: 100px;
+        margin-right: 200px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
   <body>
-    <h1>Hello everyone</h1>
-    <p>I'm Aditi Mishra.</p>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/aditimi/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/aditimishr" target="_blank">GitHub</a>
+        </li>
+        <!-- <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li> -->
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="content">
+        <h1>Welcome to my Portfolio</h1>
+        <h2>I am Aditi Mishra</h2>
+        <p>
+          I am Result-oriented, adaptive, and customer-centric Software Engineer
+          with 5+ years of experience, adept at overseeing full-cycle operations
+          in crafting, implementing, launching, and supporting resilient,
+          expandable software solutions. Skilled in interpreting client
+          requirements to deliver inventive solutions that not only fulfill
+          technical specifications but also elevate user interactions and
+          tactically advance organizational goals.
+        </p>
+        <!-- <p>You can add more paragraphs, images, or other content here.</p> -->
+      </div>
+      <div>
+        <img src="profile.jpg" alt="Image Description" class="circular-img" />
+      </div>
+    </div>
   </body>
 </html>
