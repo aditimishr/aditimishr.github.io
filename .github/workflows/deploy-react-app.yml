@@ -9,7 +9,7 @@ jobs:
   deploy-react-to-gh-pages:
     runs-on: ubuntu-latest
     env:
-      process.env.CI: false
+      CI: false
       EXAMPLE: example # environment variable
 
     steps:
