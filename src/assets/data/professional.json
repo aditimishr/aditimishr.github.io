@@ -1,0 +1,66 @@
+[
+  {
+    "position": "Software Engineer",
+    "company": "Werner Enterprises",
+    "startDate": "Jan 2023",
+    "endDate": "Present",
+    "responsibilities": [
+      "Integrating cloud-based SaaS products(fleet management, logistics, critical event automation)",
+      "Integrating cloud-based SSO solution for the mobile and web applications",
+      "Mentoring developers"
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "company": "Werner Enterprises",
+    "startDate": "Nov 2020",
+    "endDate": "Dec 2022",
+    "responsibilities": [
+      "Led the automation of multi-stop workflows, driver swapping, and rescheduling functionalities within the Event Resolution System (ERS)",
+      "Led the collaboration with Daimler Trucks North America to streamline repair order handling and maximize driver uptime",
+      "Collaborated with Decisiv to automate maintenance and repair order processes, and boosting fleet’s production capability",
+      "Collaborated with Navistar to streamline truck dispatch to manufacturer-certified repair shops with the necessary parts inventory"
+    ]
+  },
+  {
+    "position": "IT Technical Intern",
+    "company": "Werner Enterprises",
+    "startDate": "May 2020",
+    "endDate": "Nov 2020",
+    "responsibilities": [
+      "Utilized Spring and Spring Boot to develop robust Java web and enterprise-level applications",
+      "Optimized transportation app processing efficiency by 75% using Akka toolkit and cache refresh mechanism"
+    ]
+  },
+  {
+    "position": "Graduate Research Assistant",
+    "company": "University of Nebraska at Omaha",
+    "startDate": "Aug 2018",
+    "endDate": "May 2020",
+    "responsibilities": [
+      "Researched industry-oriented agreement protocols for distributed systems, enabling efficient operation under hybrid fault models",
+      "Collaborated with a research team to develop applications leveraging my developed distributed agreement protocols"
+    ]
+  },
+  {
+    "position": "Research Fellow",
+    "company": "GRACA, ORCA",
+    "startDate": "May 2019",
+    "endDate": "Aug 2019",
+    "responsibilities": [
+      "Secured a $5K grant as PI for the research “Global Convergence in Asynchronous Distributed Systems”",
+      "Researched and implemented novel fault injection and voting filtering approaches in sensor networks using Python",
+      "Presented poster at the Student Research and Creative Activity Fair"
+    ]
+  },
+  {
+    "position": "Junior Programmer-Trainee",
+    "company": "Technosys Technologies Pvt. Ltd., India",
+    "startDate": "Sep 2016",
+    "endDate": "Oct 2017",
+    "responsibilities": [
+      "Spearheaded and managed a 5-member team in developing two impactful Android projects",
+      "Reduced development time by utilizing my expertise in back-end APIs and database design (e.g., Microsoft SQL Server)"
+    ]
+  }
+]

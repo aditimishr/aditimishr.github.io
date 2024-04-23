@@ -1,0 +1,118 @@
+[
+  {
+    "group": "Languages",
+    "type": [
+      {
+        "skillType": "Proficient",
+        "skills": [
+          "Java",
+          "Python",
+          "C",
+          "C++",
+          "C#",
+          "SQL",
+          "Javascript",
+          "Typescript"
+        ]
+      },
+      {
+        "skillType": "Familiar",
+        "skills": ["Bash", "XML", "HTML", "Latex", "MATLAB", "Dart"]
+      }
+    ]
+  },
+  {
+    "group": "Databases Management",
+    "type": [
+      {
+        "skillType": "Relational",
+        "skills": [
+          "IBM DB2",
+          "Microsoft SQL Server",
+          "MySQL",
+          "SQLite",
+          "Airtable",
+          "Azure Cloud SQL",
+          "Google Cloud SQL"
+        ]
+      },
+      {
+        "skillType": "NoSQL",
+        "skills": [
+          "MongoDB",
+          "Firebase Realtime Database",
+          "Cloud Firestore",
+          "Redis",
+          "Cassandra",
+          "Azure CosmosDB"
+        ]
+      },
+      {
+        "skillType": "Big Data",
+        "skills": [
+          "Apache Hadoop HDFS",
+          "Cloudera Distribution for Hadoop (CDH)"
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Operating Systems",
+    "type": [
+      {
+        "skillType": "Operating Systems",
+        "skills": ["Windows", "Linux", "Android (4.0 to present)"]
+      }
+    ]
+  },
+  {
+    "group": "Cloud Platforms",
+    "type": [
+      {
+        "skillType": "Cloud Platforms",
+        "skills": ["Microsoft Azure", "Google Cloud", "Amazon AWS"]
+      }
+    ]
+  },
+  {
+    "group": "DevOps",
+    "type": [
+      {
+        "skillType": "CI/CD",
+        "skills": ["GitHub Actions", "Jenkins", "GitLab"]
+      },
+      {
+        "skillType": "Infrastructure as Code",
+        "skills": ["Azure Resource Manager", "Pulumi"]
+      },
+      {
+        "skillType": "Microservices architecture"
+      },
+      {
+        "skillType": "Serverless architecture",
+        "skills": ["Azure Functions"]
+      }
+    ]
+  },
+  {
+    "group": "Frameworks",
+    "type": [
+      {
+        "skillType": "Front-end",
+        "skills": ["Angular", "React"]
+      },
+      {
+        "skillType": "Back-end",
+        "skills": ["ASP.NET Core", "ASP.NET Web API", "Spring Boot"]
+      },
+      {
+        "skillType": "Mobile",
+        "skills": ["Android", "Flutter", "Ionic"]
+      },
+      {
+        "skillType": "Identity and Access Management",
+        "skills": ["Okta", "Ping Identity"]
+      }
+    ]
+  }
+]

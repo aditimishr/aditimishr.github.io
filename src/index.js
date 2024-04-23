@@ -5,12 +5,14 @@ import "@fontsource/roboto";
 import "./index.css";
 import { Navbar } from "./components/Navbar";
 import { Profile } from "./components/Profile";
+import { Experience } from "./components/Experience";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Profile />
+      <Experience />
     </div>
   );
 }

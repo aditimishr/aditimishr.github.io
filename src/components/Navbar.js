@@ -9,7 +9,7 @@ export const Navbar = () => {
       <a className="title" href="/">
         Portfolio
       </a>
-      {/* <div className="menu">
+      <div className="menu">
         <img
           className="menuBtn"
           src={menuOpen ? closeicon : menuicon}
@@ -26,14 +26,14 @@ export const Navbar = () => {
           <li>
             <a href="#experience">Experience</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
-          </li>
+          </li> */}
         </ul>
-      </div> */}
+      </div>
     </nav>
   );
 };
