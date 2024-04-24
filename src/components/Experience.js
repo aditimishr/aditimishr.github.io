@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import work from "../assets/data/professional.json";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import resume from "../assets/data/AditiMishra_resume.pdf";
 
 export const Experience = () => {
   const responsive = {
@@ -58,6 +59,19 @@ export const Experience = () => {
                 </li>
               );
             })}
+            <div className="resume">
+              <h2>Interested in learning more?</h2>
+              <a
+                href={resume}
+                without
+                rel="noreferrer"
+                target="_blank"
+                title="Aditi Resume"
+                className="download"
+              >
+                Download Resume
+              </a>
+            </div>
           </Carousel>
         </ul>
       </div>

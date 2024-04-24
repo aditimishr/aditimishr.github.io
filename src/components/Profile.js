@@ -2,64 +2,65 @@ import { React, useState, useEffect } from "react";
 import profilepicture from "../assets/profile/profile.jpg";
 
 export const Profile = () => {
-  const [text, setText] = useState("");
-  const [loopNum, setLoopNum] = useState(0);
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Full Stack Software Engineer"];
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [index, setIndex] = useState(1);
-  const period = 2000;
+  // const [text, setText] = useState("");
+  // const [loopNum, setLoopNum] = useState(0);
+  // const [delta, setDelta] = useState(300 - Math.random() * 100);
+  // const toRotate = ["Full Stack Software Engineer"];
+  // const [isDeleting, setIsDeleting] = useState(false);
+  // const [index, setIndex] = useState(1);
+  // const period = 2000;
 
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
+  // useEffect(() => {
+  //   let ticker = setInterval(() => {
+  //     tick();
+  //   }, delta);
 
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
+  //   return () => {
+  //     clearInterval(ticker);
+  //   };
+  // }, [text]);
 
-  const tick = () => {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
+  // const tick = () => {
+  //   let i = loopNum % toRotate.length;
+  //   let fullText = toRotate[i];
+  //   let updatedText = isDeleting
+  //     ? fullText.substring(0, text.length - 1)
+  //     : fullText.substring(0, text.length + 1);
 
-    setText(updatedText);
+  //   setText(updatedText);
 
-    if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
-    }
+  //   if (isDeleting) {
+  //     setDelta((prevDelta) => prevDelta / 2);
+  //   }
 
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setIndex((prevIndex) => prevIndex - 1);
-      setDelta(period);
-    } else if (isDeleting && updatedText === "") {
-      setIsDeleting(false);
-      setLoopNum(loopNum + 1);
-      setIndex(1);
-      setDelta(300);
-    } else {
-      setIndex((prevIndex) => prevIndex + 1);
-    }
-  };
+  //   if (!isDeleting && updatedText === fullText) {
+  //     setIsDeleting(true);
+  //     setIndex((prevIndex) => prevIndex - 1);
+  //     setDelta(period);
+  //   } else if (isDeleting && updatedText === "") {
+  //     setIsDeleting(false);
+  //     setLoopNum(loopNum + 1);
+  //     setIndex(1);
+  //     setDelta(300);
+  //   } else {
+  //     setIndex((prevIndex) => prevIndex + 1);
+  //   }
+  // };
 
   return (
     <section className="profileContainer" id="about">
       <div className="content">
         <h1 className="profileTitle">
           {`Hi! I'm Aditi `}
-          <span
+          {/* <span
             className="txt-rotate"
             dataPeriod="1000"
             data-rotate='[ "Web Developer" ]'
           >
             <span className="wrap">{text}</span>
-          </span>
+          </span> */}
         </h1>
+        <h2 className="subTitle">Full Stack Software Engineer</h2>
         <p className="description">
           I am Result-oriented, adaptive, and customer-centric Software Engineer
           with 5+ years of experience, adept at overseeing full-cycle operations
@@ -71,7 +72,7 @@ export const Profile = () => {
           deliver innovative solutions
         </p>
         <a href="mailto:mishraad96@gmail.com" className="contactBtn">
-          Contact Me
+          Let's Collaborate <span>&rarr;</span>
         </a>
         {/* <a
           href="https://www.linkedin.com/in/aditimi/"

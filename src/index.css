@@ -120,7 +120,7 @@ html {
 .profileTitle {
   font-size: 72px;
   font-weight: 900;
-  margin-bottom: 33px;
+  /* margin-bottom: 33px; */
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
@@ -129,6 +129,10 @@ html {
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.subTitle {
+  margin-bottom: 33px;
 }
 
 .description {
@@ -296,6 +300,12 @@ html {
   margin-left: 17px;
 }
 
-.stack h3 {
-  font-size: 20px;
+.resume {
+  margin-top: 100px;
+  color: var(--color-text);
+}
+
+.download {
+  margin-top: 20px;
+  color: var(--color-text);
 }
