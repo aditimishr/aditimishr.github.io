@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbf3c8ac.css",
-    "main.js": "/static/js/main.05fb340e.js",
+    "main.css": "/static/css/main.fdc1adea.css",
+    "main.js": "/static/js/main.c0a53c46.js",
+    "static/media/img4.PNG": "/static/media/img4.52028ae8c1184c635603.PNG",
     "static/media/AditiMishra_resume.pdf": "/static/media/AditiMishra_resume.cc4a210279f7da2920c2.pdf",
+    "static/media/img3.PNG": "/static/media/img3.00d4059d58e41dc263e4.PNG",
+    "static/media/img2.png": "/static/media/img2.a007d28a6f64fe2f3e51.png",
+    "static/media/img5.png": "/static/media/img5.911f0839fb9d6f441113.png",
     "static/media/profile.jpg": "/static/media/profile.ebcc14dd335b463f2303.jpg",
+    "static/media/img1.PNG": "/static/media/img1.4f41041c7afdd4900dd1.PNG",
     "static/media/outfit-latin-400-normal.woff": "/static/media/outfit-latin-400-normal.741bd8369a31b33122b4.woff",
     "static/media/roboto-latin-400-normal.woff2": "/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
@@ -26,11 +31,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-400-normal.woff": "/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "index.html": "/index.html",
-    "main.cbf3c8ac.css.map": "/static/css/main.cbf3c8ac.css.map",
-    "main.05fb340e.js.map": "/static/js/main.05fb340e.js.map"
+    "main.fdc1adea.css.map": "/static/css/main.fdc1adea.css.map",
+    "main.c0a53c46.js.map": "/static/js/main.c0a53c46.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbf3c8ac.css",
-    "static/js/main.05fb340e.js"
+    "static/css/main.fdc1adea.css",
+    "static/js/main.c0a53c46.js"
   ]
 }
