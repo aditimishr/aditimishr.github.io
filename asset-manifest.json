@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac7bb2b6.css",
-    "main.js": "/static/js/main.c0a53c46.js",
+    "main.css": "/static/css/main.9e37172d.css",
+    "main.js": "/static/js/main.c8f8fdd5.js",
     "static/media/img4.PNG": "/static/media/img4.52028ae8c1184c635603.PNG",
     "static/media/AditiMishra_resume.pdf": "/static/media/AditiMishra_resume.cc4a210279f7da2920c2.pdf",
     "static/media/img3.PNG": "/static/media/img3.00d4059d58e41dc263e4.PNG",
@@ -31,11 +31,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-400-normal.woff": "/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "index.html": "/index.html",
-    "main.ac7bb2b6.css.map": "/static/css/main.ac7bb2b6.css.map",
-    "main.c0a53c46.js.map": "/static/js/main.c0a53c46.js.map"
+    "main.9e37172d.css.map": "/static/css/main.9e37172d.css.map",
+    "main.c8f8fdd5.js.map": "/static/js/main.c8f8fdd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac7bb2b6.css",
-    "static/js/main.c0a53c46.js"
+    "static/css/main.9e37172d.css",
+    "static/js/main.c8f8fdd5.js"
   ]
 }
