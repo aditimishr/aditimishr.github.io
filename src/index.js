@@ -6,6 +6,8 @@ import "./index.css";
 import { Navbar } from "./components/Navbar";
 import { Profile } from "./components/Profile";
 import { Experience } from "./components/Experience";
+import { Projects } from "./components/Projects";
+import { Skills } from "./components/Skills";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Navbar />
       <Profile />
       <Experience />
+      {/* <Skills /> */}
+      <Projects />
     </div>
   );
 }

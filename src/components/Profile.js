@@ -1,5 +1,8 @@
 import { React, useState, useEffect } from "react";
 import profilepicture from "../assets/profile/profile.jpg";
+import linkedin from "../assets/profile/linkedin.png";
+import github from "../assets/profile/github.jpg";
+import email from "../assets/profile/email.png";
 
 export const Profile = () => {
   // const [text, setText] = useState("");
@@ -71,23 +74,30 @@ export const Profile = () => {
           organizational goals; Eager to leverage emerging technologies to
           deliver innovative solutions
         </p>
-        <a href="mailto:mishraad96@gmail.com" className="contactBtn">
-          Let's Collaborate <span>&rarr;</span>
-        </a>
-        {/* <a
-          href="https://www.linkedin.com/in/aditimi/"
-          target="_blank"
-          className="contactBtn"
-        >
-          Linkedin
-        </a>
-        <a
-          href="https://github.com/aditimishr"
-          target="_blank"
-          className="contactBtn"
-        >
-          GitHub
-        </a> */}
+        <div class="selected-lines">
+          <a className="contactBtn">
+            Let's Collaborate <span>&rarr;</span>
+          </a>
+          <a href="https://www.linkedin.com/in/aditimi/" target="_blank">
+            <img
+              className="linkedin"
+              src={linkedin}
+              alt="linkedin"
+              title="Linkedin"
+            />
+          </a>
+          <a href="https://github.com/aditimishr" target="_blank">
+            <img
+              className="linkedin"
+              src={github}
+              alt="github"
+              title="GitHub"
+            />
+          </a>
+          <a href="mailto:mishraad96@gmail.com">
+            <img className="linkedin" src={email} alt="email" title="Email" />
+          </a>
+        </div>
       </div>
       <img
         className="circular-img"
