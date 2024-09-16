@@ -74,29 +74,33 @@ export const Profile = () => {
           organizational goals; Eager to leverage emerging technologies to
           deliver innovative solutions
         </p>
-        <div class="selected-lines">
-          <a className="contactBtn">
-            Let's Collaborate <span>&rarr;</span>
-          </a>
-          <a href="https://www.linkedin.com/in/aditimi/" target="_blank">
-            <img
-              className="linkedin"
-              src={linkedin}
-              alt="linkedin"
-              title="Linkedin"
-            />
-          </a>
-          <a href="https://github.com/aditimishr" target="_blank">
-            <img
-              className="linkedin"
-              src={github}
-              alt="github"
-              title="GitHub"
-            />
-          </a>
-          <a href="mailto:mishraad96@gmail.com">
-            <img className="linkedin" src={email} alt="email" title="Email" />
-          </a>
+        <div className="contact_div">
+          <div>
+            <a className="contactBtn">
+              Let's Collaborate <span>&rarr;</span>
+            </a>
+          </div>
+          <div class="selected-lines">
+            <a href="https://www.linkedin.com/in/aditimi/" target="_blank">
+              <img
+                className="linkedin"
+                src={linkedin}
+                alt="linkedin"
+                title="Linkedin"
+              />
+            </a>
+            <a href="https://github.com/aditimishr" target="_blank">
+              <img
+                className="linkedin"
+                src={github}
+                alt="github"
+                title="GitHub"
+              />
+            </a>
+            <a href="mailto:mishraad96@gmail.com">
+              <img className="linkedin" src={email} alt="email" title="Email" />
+            </a>
+          </div>
         </div>
       </div>
       <img

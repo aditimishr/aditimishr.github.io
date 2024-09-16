@@ -99,7 +99,14 @@ html {
   height: auto;
   max-width: 100%;
   max-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 0px;
+}
+
+.contact_div {
   display: flex;
+  flex-direction: row;
 }
 
 @keyframes floating {
@@ -167,6 +174,7 @@ html {
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
 }
 
 .topBlur {
@@ -391,6 +399,9 @@ html {
     grid-template-columns: repeat(1, 1fr); /*50% from left 50% from right  */
     /* gap: 1.2rem; */
   }
+  .selected-lines {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* Media queries for small devices(Mobiles) */
@@ -399,5 +410,8 @@ html {
   .project_container {
     grid-template-columns: repeat(1, 1fr);
     /* gap: 1rem; */
+  }
+  .selected-lines {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
