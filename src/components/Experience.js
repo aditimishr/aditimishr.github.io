@@ -33,7 +33,7 @@ export const Experience = () => {
             responsive={responsive}
             infinite={false}
             className="owl-carousel owl-theme skill-slider"
-            autoPlay={true}
+            // autoPlay={true}
             autoPlaySpeed={2500}
             rewind={true}
           >

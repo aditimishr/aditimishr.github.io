@@ -6,12 +6,44 @@ import IMG2 from "../assets/project/img2.png";
 import IMG3 from "../assets/project/img3.PNG";
 import IMG4 from "../assets/project/img4.PNG";
 import IMG5 from "../assets/project/img5.png";
+import IMG6 from "../assets/project/img6.png";
+import IMG7 from "../assets/project/img7.PNG";
 
 export const Projects = () => {
   return (
     <section className="experienceContainer" id="projects">
       <h2 className="experienceTitle">Projects</h2>
       <div className="project_container">
+        <article className="project__item">
+          <div className="project_item_image">
+            <img className="item_image" src={IMG7} alt="" />
+          </div>
+          <h3>Arrive Safely Today</h3>
+          <h4>
+            This is a crowdsourcing application to track road incidents like
+            accidents, burglary, robbery, or vehicle theft within 15 days. Users
+            can also report the incidents to help others who are passing by the
+            location. This application does not store any of the user data but
+            stores the location and type of incidents.
+          </h4>
+          <h4>
+            Google Cloud Platform | Google Maps Api | Google Cloud Firestore
+            database | Android | Java
+          </h4>
+          <div className="project__item_cta">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.ast.arrivesafelytoday&hl=en_US&pli=1"
+              target="_blank"
+            >
+              <img
+                className="linkedin"
+                src={IMG6}
+                alt="Research Paper"
+                title="Research Paper"
+              />
+            </a>
+          </div>
+        </article>
         <article className="project__item">
           <div className="project_item_image">
             <img className="item_image" src={IMG1} alt="" />

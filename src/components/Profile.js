@@ -77,7 +77,7 @@ export const Profile = () => {
         <div className="contact_div">
           <div>
             <a className="contactBtn">
-              Let's Collaborate <span>&rarr;</span>
+              Let's Connect <span>&rarr;</span>
             </a>
           </div>
           <div class="selected-lines">

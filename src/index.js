@@ -6,8 +6,10 @@ import "./index.css";
 import { Navbar } from "./components/Navbar";
 import { Profile } from "./components/Profile";
 import { Experience } from "./components/Experience";
+import { Tech } from "./components/Tech";
 import { Projects } from "./components/Projects";
-import { Skills } from "./components/Skills";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
       <Navbar />
       <Profile />
       <Experience />
-      {/* <Skills /> */}
+      <Tech />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -27,14 +27,25 @@ export const Navbar = () => {
             <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
-          </li>
-          {/* <li>
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1tBh0loyeNd4gN0-uTifMWxowWtLQX0CR/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </li>
+          {/* <li>
+            <a href="#skills">Skills</a>
+          </li>*/}
+          <li>
             <a href="#contact">Contact</a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>
