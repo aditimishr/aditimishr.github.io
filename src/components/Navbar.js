@@ -34,7 +34,7 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1tBh0loyeNd4gN0-uTifMWxowWtLQX0CR/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-hphFgMt7KBmJ2abl6GE06-_I-Tlk5ZD/view?usp=sharing"
               target="_blank"
             >
               Resume
