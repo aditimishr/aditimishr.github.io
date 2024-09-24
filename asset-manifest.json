@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6fa5aa35.css",
-    "main.js": "/static/js/main.ade70f70.js",
+    "main.js": "/static/js/main.4b1b8149.js",
     "static/media/img4.PNG": "/static/media/img4.52028ae8c1184c635603.PNG",
     "static/media/img7.PNG": "/static/media/img7.99913a1ba487860f0111.PNG",
     "static/media/AditiMishra_resume.pdf": "/static/media/AditiMishra_resume.cc4a210279f7da2920c2.pdf",
@@ -33,10 +33,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "index.html": "/index.html",
     "main.6fa5aa35.css.map": "/static/css/main.6fa5aa35.css.map",
-    "main.ade70f70.js.map": "/static/js/main.ade70f70.js.map"
+    "main.4b1b8149.js.map": "/static/js/main.4b1b8149.js.map"
   },
   "entrypoints": [
     "static/css/main.6fa5aa35.css",
-    "static/js/main.ade70f70.js"
+    "static/js/main.4b1b8149.js"
   ]
 }
